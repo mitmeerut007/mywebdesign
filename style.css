@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item h2 {
+  text-align: left;
+  color: white;
+  padding: 20px 50px;
+  text-transform: uppercase;
+}
+
+.swiper-container h1 {
+  padding: 20px 100px;
+}
+.container-general {
+  padding: 5px 0;
+  margin: 0 auto;
+  width: 80%;
+}
+.container-general .gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50vh;
+}
+.container-general .gallery-wrap .item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: all 0.8s ease;
+}
+.container-general .gallery-wrap .item:hover {
+  flex: 5;
+}
+.item:first-of-type{
+border-radius: 30px 0 0 30px;
+}
+.item:last-of-type{
+  border-radius: 0 30px 30px 0;
+}
+.wrap-effect-1 .item:first-of-type {
+  background-image: url("http://tapoutdrinks.com/wp-content/uploads/2020/10/woman-doing-yoga-exercises-in-gym-sport-fitness-gi-JP8VE2K.jpg");
+}
+.wrap-effect-1 .item:nth-of-type(2) {
+  background-image: url("https://images.indianexpress.com/2020/01/tips-for-gym-beginners_759.jpg");
+}
+.wrap-effect-1 .item:last-of-type {
+  background-image: url("https://img.freepik.com/premium-photo/brunette-athletic-young-girl-working-out-gym_174475-613.jpg");
+}
+
